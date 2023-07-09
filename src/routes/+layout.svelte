@@ -4,8 +4,6 @@
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 
-	export const prerender = true;
-
 	onMount(() => onHydrated());
 </script>
 
